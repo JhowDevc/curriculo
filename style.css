@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 7%;
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    background-image:url(Planodefundo.jpg);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight:800;
+    
+}
+.curriculo{
+    
+    text-align: justify;
+    align-items: center;
+}
+
+.titulo{
+    text-align: left;
+    margin: 30px 0 0 0;
+}
+.dados_pessoais{
+    font-weight: 900;
+   
+}
+.habilidades{
+    text-align: justify;
+    
+}
+.formacao{
+    text-align: justify;
+}
+.idiomas{
+    text-align: justify;
+}
+.experiencias{
+    text-align: justify;
+}
+.cursos{
+    text-align: justify;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__links__nevegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid white;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.apresentacao__links__nevegacao:hover{
+    background-color: gray;
+}
+.footer{
+    margin: 30px 0 0 30px;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    position: relative;
+    color: gold;
+}
+.barra {
+    height: 5px; /* Altura da barra */
+    margin-bottom: 10px; /* Espaçamento entre a barra e o texto do footer */
+    position: absolute; /* Adicione esta linha */
+    left: 0; /* Adicione esta linha */
+    right: 0; /* Adicione esta linha */
+    bottom: 0; /* Adicione esta linha */
+}
+
+@media (max-width: 768px) {
+    body {
+      background-size: cover;
+    }
+  
+  
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .titulo {
+      font-size: 1.5rem;
+    }
+  
+
+  }
